@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.shuyun.jumpmenu.MainActivity">
+
+    <com.example.shuyun.jumpmenu.TopBar
+        android:id="@+id/id_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        custom:leftButtonClickColor="@color/colorPrimary"
+        custom:leftButtonColor="@color/colorPrimaryDark"
+        custom:leftButtonHeight="48dp"
+        custom:leftButtonMarginBottom="4dp"
+
+        custom:leftButtonMarginLeft="4dp"
+        custom:leftButtonMarginRight="4dp"
+        custom:leftButtonMarginTop="4dp"
+        custom:leftButtonWidth="48dp"
+        custom:leftImageViewBackground="@drawable/ic_menu_90"
+        custom:leftImageViewHeight="24dp"
+        custom:leftImageViewMarginBottom="16dp"
+        custom:leftImageViewMarginLeft="16dp"
+        custom:leftImageViewMarginRight="16dp"
+        custom:leftImageViewMarginTop="16dp"
+
+        custom:leftImageViewWidth="24dp"
+        custom:mtitle=""
+        custom:mtitleTextColor="@color/colorWhite"
+        custom:mtitleTextSize="16dp"
+        custom:rightButtonClickColor="@color/colorPrimary"
+        custom:rightButtonColor="@color/colorPrimaryDark"
+        custom:rightButtonHeight="48dp"
+        custom:rightButtonMarginBottom="4dp"
+        custom:rightButtonMarginLeft="4dp"
+        custom:rightButtonMarginRight="4dp"
+
+        custom:rightButtonMarginTop="4dp"
+        custom:rightButtonWidth="48dp"
+        custom:rightImageViewBackground="@drawable/ic_add"
+        custom:rightImageViewHeight="24dp"
+        custom:rightImageViewMarginBottom="16dp"
+        custom:rightImageViewMarginLeft="16dp"
+        custom:rightImageViewMarginRight="16dp"
+        custom:rightImageViewMarginTop="16dp"
+        custom:rightImageViewWidth="24dp"
+        custom:topBarBackgroundColor="@color/colorPrimaryDark">
+
+    </com.example.shuyun.jumpmenu.TopBar>
+    <com.example.shuyun.jumpmenu.TopMenu
+        android:id="@+id/topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.example.shuyun.jumpmenu.TopMenu>
+
+</RelativeLayout>

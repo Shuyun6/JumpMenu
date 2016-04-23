@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="mtitle" format="string" />
+        <attr name="mtitleTextSize" format="dimension" />
+        <attr name="mtitleTextColor" format="color" />
+
+        <attr name="topBarBackgroundColor" format="color" />
+
+        <attr name="leftImageViewBackground" format="reference|color" />
+        <attr name="rightImageViewBackground" format="reference|color" />
+
+        <attr name="leftButtonColor" format="color" />
+        <attr name="leftButtonClickColor" format="color" />
+        <attr name="rightButtonColor" format="color" />
+        <attr name="rightButtonClickColor" format="color" />
+
+        <attr name="leftButtonWidth" format="dimension" />
+        <attr name="leftButtonHeight" format="dimension" />
+        <attr name="leftButtonMarginLeft" format="dimension" />
+        <attr name="leftButtonMarginTop" format="dimension" />
+        <attr name="leftButtonMarginRight" format="dimension" />
+        <attr name="leftButtonMarginBottom" format="dimension" />
+
+        <attr name="rightButtonWidth" format="dimension" />
+        <attr name="rightButtonHeight" format="dimension" />
+        <attr name="rightButtonMarginLeft" format="dimension" />
+        <attr name="rightButtonMarginTop" format="dimension" />
+        <attr name="rightButtonMarginRight" format="dimension" />
+        <attr name="rightButtonMarginBottom" format="dimension" />
+
+        <attr name="leftImageViewWidth" format="dimension" />
+        <attr name="leftImageViewHeight" format="dimension" />
+        <attr name="leftImageViewMarginLeft" format="dimension" />
+        <attr name="leftImageViewMarginTop" format="dimension" />
+        <attr name="leftImageViewMarginRight" format="dimension" />
+        <attr name="leftImageViewMarginBottom" format="dimension" />
+
+        <attr name="rightImageViewWidth" format="dimension" />
+        <attr name="rightImageViewHeight" format="dimension" />
+        <attr name="rightImageViewMarginLeft" format="dimension" />
+        <attr name="rightImageViewMarginTop" format="dimension" />
+        <attr name="rightImageViewMarginRight" format="dimension" />
+        <attr name="rightImageViewMarginBottom" format="dimension" />
+    </declare-styleable>
+</resources>
